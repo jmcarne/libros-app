@@ -1,0 +1,9 @@
+[
+	{
+	 "id": "2",
+	 "titulo": "Album 2",
+	 "artista": "Artista 2",
+	 "descripcion": "Album2desc-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu lectus eros. Nunc pharetra eros ac purus finibus, sit amet cursus leo aliquam. Aenean dapibus facilisis molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec luctus eu augue vitae ornare. Sed lobortis at tortor sed malesuada.",	 
+	 "img": "img/img2.jpg"
+	}
+]

@@ -1,0 +1,34 @@
+<h2>Albums</h2>
+
+
+<p>
+<strong>Buscar</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+Titulo: <input ng-model="query.titulo">
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<strong>Ordenar</strong>
+ <select ng-model="orderField">
+ 		<option value="titulo">Titulo</option>
+        <option value="artista">Artista</option>
+    </select>
+    <select ng-model="orderReverse">
+ 		<option value="false">Ascendente</option>
+        <option value="true">Descendente</option>
+    </select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p>
+<a href="#/add_album"><strong>Añadir album</strong></a>
+</p>
+ 
+<ul>
+    <li ng-repeat="obj in albums | filter:query | orderBy:orderField:orderReverse">
+    	<div ng-include src=" 'src/views/_album-detail.html' "></div>
+    </li>
+</ul>
+
+

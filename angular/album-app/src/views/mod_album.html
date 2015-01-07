@@ -1,0 +1,14 @@
+<a href="#/albums">< volver</a>
+<h2>Modificar Album</h2>
+<style>
+	label{ display: inline-block; width: 150px;}
+</style>
+
+<label for="titulo">Título</label><input type="text" name="titulo" ng-model="album.titulo" />
+<br>
+<label for="artista">Artista</label><input type="text" name="artista" ng-model="album.artista" />
+<br>
+<label for="descripcion">Descripción</label><input type="text" name="descripcion" ng-model="album.descripcion" />
+<br>
+<button ng-click="guardame()">Guardar</button>
+
